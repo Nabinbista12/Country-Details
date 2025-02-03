@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+}
+
+body {
+    min-height: 100vh;
+    min-width: 100wh;
+    background-color: red;
+    /* padding: 0 50px 0; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* Style for the Search Bar  */
+
+.search {
+    background-color: black;
+    height: 70px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search-country {
+    height: 40px;
+    width: 400px;
+    border-radius: 20px 0 0 20px;
+    padding: 5px 25px;
+    font-size: 1.2em;
+    border: 2px solid pink;
+}
+
+.search-country-name {
+    height: 40px;
+    width: 40px;
+    border-radius: 0 20px 20px 0;
+    font-size: 1.2em;
+    border: 2px solid pink;
+    background-color: white;
+}
+
+.search-country:hover, .search-country-name:hover {
+    border: 2px solid rgb(255, 255, 192);
+
+}
+
+/* The setting for the country name, capital and continent  */
+.country-name, .country-capital, .country-continent {
+    color: white;
+    margin: 20px;
+}
+
+
+/* Country google map and openstreet-map  */
+.country-google-map {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin: 20px;
+}
+
+.country-google-map div {
+    margin: 5px;
+}
+
+.country-google-map a {
+    text-decoration: none;
+    color: purple;
+    margin: 10px;
+}
+
+
+/* The style is for the country detail  */
+.country-detail {
+    background-color: pink;
+    min-height: 100vh;
+    min-width: 900px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+/* Area of the country  */
+.country-area {
+    color: red;
+}
+
+
+
+/* Style for the country logo  */
+.country-logo {
+    height: 130px;
+    width: 300px;
+    margin: 20px;
+}
+
+.country-logo img {
+    height: 100px;
+    width: 100px;
+    position: relative;
+    left: 80px;
+}
+
+
+/* Style for the country flag */
+.country-flags {
+    height: 200px;
+    width: 500px;
+    margin: 40px;
+}
+
+.country-flags img {
+    height: 100px;
+    margin-top: 20px;
+    position: relative;
+    left: 200px;
+}
+
+
+/* Style for the country staus, subregion  */
+.country-status {
+    width: 500px;
+    margin: 20px;
+}
+
+.country-status h3 {
+    margin: 20px;
+}
+
+
+/* Style for the country timezone and the country domain name  */
+.country-timezone, .country-domain-name {
+    width: 500px;
+    margin: 20px;
+}
